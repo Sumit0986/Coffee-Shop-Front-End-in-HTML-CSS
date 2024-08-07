@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>Contact Us - Coffee Bite</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <h1>Coffee Bite</h1>
+        <nav>
+            <ul>
+                <li><a href="1 Index.html">Home</a></li>
+                <li><a href="2 Menu.html">Menu</a></li>
+                <li><a href="3 about_us.html">About</a></li>
+                <li><a href="4 contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to reach out.</p>
+            
+            <div class="contact-details">
+                <div class="detail">
+                    <h3>Address</h3>
+                    <p>Near Bus Stand, Opposite Friends cafe, Islampur</p>
+                </div>
+                <div class="detail">
+                    <h3>Phone</h3>
+                    <p>+91 1234567890</p>
+                </div>
+                <div class="detail">
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@coffeebites.com">info@coffeebites.com</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Coffee Bite</p>
+    </footer>
+</body>
+</html>
